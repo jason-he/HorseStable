@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="StableBase">
+  <DataContextMoniker Name="/StableBaseDataContext" />
+  <nestedChildShapes>
+    <classShape Id="4a278a6e-3303-441d-83b0-94e331903e09" absoluteBounds="0.75, 4.875, 2, 2.5401025390625005">
+      <DataClassMoniker Name="/StableBaseDataContext/Horse" />
+      <nestedChildShapes>
+        <elementListCompartment Id="b9d8ee29-c577-465a-a95b-2e4feeff715b" absoluteBounds="0.765, 5.335, 1.9700000000000002, 1.9801025390625" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="8a0283dd-458c-4b62-b9cd-8e5bfb716adf" absoluteBounds="0.75, 1.5, 2, 1.1939925130208335">
+      <DataClassMoniker Name="/StableBaseDataContext/Task" />
+      <nestedChildShapes>
+        <elementListCompartment Id="7ccbfb95-7dec-43cd-9969-db8347a897a6" absoluteBounds="0.765, 1.96, 1.9700000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="8dd5a67f-6061-45e6-9190-19fc9e2b1d13" absoluteBounds="3.5, 1, 2, 2.3478011067708335">
+      <DataClassMoniker Name="/StableBaseDataContext/HorseTask" />
+      <nestedChildShapes>
+        <elementListCompartment Id="85d9c48e-1460-403b-abb9-31a3c190f1f1" absoluteBounds="3.515, 1.46, 1.9700000000000002, 1.7878011067708335" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(2.75 : 7.1194482421875); (4.28125 : 7.1194482421875); (4.28125 : 3.34780110677083)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/StableBaseDataContext/Horse/Horse_HorseTask" />
+      <nodes>
+        <classShapeMoniker Id="4a278a6e-3303-441d-83b0-94e331903e09" />
+        <classShapeMoniker Id="8dd5a67f-6061-45e6-9190-19fc9e2b1d13" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(2.75 : 2.09699625651042); (3.5 : 2.09699625651042)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/StableBaseDataContext/Task/Task_HorseTask" />
+      <nodes>
+        <classShapeMoniker Id="8a0283dd-458c-4b62-b9cd-8e5bfb716adf" />
+        <classShapeMoniker Id="8dd5a67f-6061-45e6-9190-19fc9e2b1d13" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="8f7367cf-f0d0-46cd-9d61-cfca2762135f" absoluteBounds="5.125, 5.375, 2, 1.3862939453125">
+      <DataClassMoniker Name="/StableBaseDataContext/New" />
+      <nestedChildShapes>
+        <elementListCompartment Id="017998ea-8df1-44be-83d1-885bc92f5a07" absoluteBounds="5.14, 5.835, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>
